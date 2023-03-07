@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    font-size: 25px;
+}
+li{
+    list-style: none;
+    padding: 20px 25px;
+}
+header::before{
+    background-image: url(https://source.unsplash.com/random/?city,foods);
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+section{
+    height: 344px;
+    margin: 3px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+}
